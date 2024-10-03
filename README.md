@@ -1,6 +1,5 @@
 # google-search-clone
 Google Clone - Web Development Project
-
 This repository contains a front-end clone of Google's homepage, developed as part of a Web Development course project. The project allows users to navigate between three main sections: Google Search, Google Images, and Google Advanced Search, replicating the interface and user experience in a simple and functional manner.
 
 Technologies Used:
