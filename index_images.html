@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>Images</title>
+        <style>
+            body {
+                background-color: rgba(0, 0, 0, 0.879);
+            }
+
+        </style>
+    </head>
+    <link rel="stylesheet" href="index_images.css">
+    <body>
+        <div class="links">
+            <a href="index.html">Google Search</a>
+            <a href="https://www.google.com/advanced_search">Advanced Search</a>
+        </div>
+
+        <div class="main">
+            <img src="images/google_images_logo.png" alt="Google Images Logo">   
+
+            <div class="container">
+                <form action="https://www.google.com/search" method="GET" target="_blank">
+
+                    <div class="background_input">
+                        <div>
+                            <input class="text_box" type="hidden" name="tbm" value="isch">
+                            <input class="text_box" type="text" id="query" name="q">
+                        </div>
+                        <div class="submit_button">
+                            <input class="text_button1" type="submit" value="Google Images">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</HTML>
